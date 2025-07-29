@@ -5,10 +5,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const fullName = "john_doe"; // your name in lowercase
-const dob = "17091999"; // ddmmyyyy
-const email = "john@xyz.com";
-const rollNumber = "ABCD123";
+const fullName = "kashika"; // your name in lowercase
+const dob = "28122004"; // ddmmyyyy
+const email = "kashika493.be22@chitkara.edu.in";
+const rollNumber = "2210990493";
 
 app.post("/bfhl", (req, res) => {
   try {
