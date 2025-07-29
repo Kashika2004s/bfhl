@@ -5,8 +5,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const fullName = "kashika"; // your name in lowercase
-const dob = "28122004"; // ddmmyyyy
+const fullName = "kashika"; 
+const dob = "28122004";
 const email = "kashika493.be22@chitkara.edu.in";
 const rollNumber = "2210990493";
 
